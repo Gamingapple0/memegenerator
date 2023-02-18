@@ -1,4 +1,5 @@
 import './Body.css'
+import Draggable from 'react-draggable'
 import React from 'react';
 
 
@@ -15,7 +16,7 @@ function Body(){
     }, [])
 
     console.log('b')
-    const [meme, setMeme] = React.useState({'top-text':'Bruu','bottom-text':'Wooo','image':'https://i.imgflip.com/2wifvo.jpg'})
+    const [meme, setMeme] = React.useState({'top-text':'Top Text','bottom-text':'Bottom Text','image':'https://i.imgflip.com/2wifvo.jpg'})
 
 
     function submit(event){
