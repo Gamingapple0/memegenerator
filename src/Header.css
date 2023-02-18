@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,60,148,1) 0%, rgba(80,81,225,1) 100%);
+    color:white;
+    height:65px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.logo-and-title{
+    display: flex;
+}
+
+.logo-title{
+    font-size: 25px;
+    font-weight:bold;
+    margin:auto;
+    padding-left: 10px;
+}
+
+.logo{
+    width:45px;
+    height:45px;
+    padding:5px;
+}
+
+.project-name{
+    font-size: 20px;
+    margin:auto;
+    margin-left:0;
+    margin-right:10px;
+}
