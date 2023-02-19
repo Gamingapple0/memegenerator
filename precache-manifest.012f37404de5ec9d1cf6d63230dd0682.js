@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/memegenerator/static/media/logo.06e73328.svg"
   },
   {
-    "revision": "65cfb2dabf49bd0f177a42a0b3884931",
+    "revision": "e7ac32d862194fac496b509d29629363",
     "url": "/memegenerator/index.html"
   }
 ];
