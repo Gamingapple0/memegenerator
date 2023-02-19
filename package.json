@@ -1,7 +1,6 @@
 {
   "name": "practice",
   "homepage": "https://Gamingapple0.github.io/memegenerator",
-
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +10,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-draggable": "^4.4.5",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
