@@ -56,6 +56,7 @@ function Body(){
                 <input type="text" onChange={press} autoComplete="off" placeholder="Bottom text" name='bottom-text' className='bottom-text' value={formData['bottom-text']}/>
                 <button className='submit'>Get a new meme image</button>
             </form>
+            <div>
             <Draggable>
             <div className="top-text-1">{meme['top-text']}</div>
             </Draggable>
@@ -63,7 +64,8 @@ function Body(){
             <div className="bottom-text-1">{meme['bottom-text']}</div>
             </Draggable>
             
-            <img id="main-image" src={meme.image}></img>  
+            <img id="main-image" src={meme.image}></img> 
+            </div>
         </div>
     )
 }

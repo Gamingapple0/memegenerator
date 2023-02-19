@@ -58,5 +58,13 @@ input[type="text"]{
 @media(max-width:500px){
     .form{
         display: block;
+        width: 0vw;
+    }
+    .submit{
+        width: max-content;
+        margin-left: 15px;
+    }
+    #main-image{
+        width:130vw 
     }
 }
