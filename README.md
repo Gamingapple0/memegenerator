@@ -1,6 +1,6 @@
 # React Meme Generator Website
 
-This is a web application built using React that allows users to generate meme templates and customize them by adding their own text. The application is easy to use and intuitive, with a simple interface that enables users to quickly create and share their own memes.
+This is a web application built using React that allows users tohe application fetches meme templates from an API and displays them on the homepage. The user can then select a meme template and customize it by adding their own text.. The application is easy to use and intuitive, with a simple interface that enables users to quickly create and share their own memes.
 
 ## How to use
 
@@ -13,7 +13,7 @@ This is a web application built using React that allows users to generate meme t
 * Customize your text using the options available.
 
 ## Features
-Large selection of popular meme templates to choose from.
+Large selection of popular meme templates fetched from an API.
 User-friendly interface for customizing memes.
 Options for dragging and dropping text area
 
